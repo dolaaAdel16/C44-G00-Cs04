@@ -4,9 +4,10 @@
     {
         static void Main()
         {
-            Console.WriteLine("V01");
+            #region V01
+            //Console.WriteLine("V01");
 
-            Point P01;
+            //Point P01;
 
             //Console.WriteLine(P01.x);
             //Console.WriteLine(P01.y);
@@ -17,7 +18,7 @@
             //Console.WriteLine(P01.x);
             //Console.WriteLine(P01.y);
 
-            P01 = new Point(1,2); 
+            //P01 = new Point(1,2); 
 
             //Console.WriteLine(P01.x);   
             //Console.WriteLine(P01.y);   
@@ -26,7 +27,17 @@
 
             //P01.PrintPoint();
 
-            Console.WriteLine(P01); 
+            //Console.WriteLine(P01); 
+
+            #endregion
+
+            Console.WriteLine("V02");
+
+            Object O01;
+
+            O01 = 1;
+            O01 = 1.5;
+            O01 = 1.5f;
 
         }
     }
