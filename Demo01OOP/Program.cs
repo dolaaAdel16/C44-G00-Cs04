@@ -31,13 +31,39 @@
 
             #endregion
 
-            Console.WriteLine("V02");
+            #region V02
+            //Console.WriteLine("V02");
 
-            Object O01;
+            //Object O01;
 
-            O01 = 1;
-            O01 = 1.5;
-            O01 = 1.5f;
+            //O01 = 1;
+            //O01 = 1.5;
+            //O01 = 1.5f; 
+            #endregion
+
+            #region V03
+            //Console.WriteLine("V03");
+
+            //Employee E01 = new Employee( 1 , "Ahmed Adel" , 12000);
+
+            //E01.id = 1;
+            //E01.name = "Ahmed";
+            //E01.salary = 12000;
+
+            //Console.WriteLine(E01.id);
+            //Console.WriteLine(E01.name);
+            //Console.WriteLine(E01.salary);
+
+            //E01.SetId(1);   
+            //E01.SetName("Ahmed");
+            //E01.SetSalary(-12000);   
+
+            //Console.WriteLine(E01.GetId());
+            //Console.WriteLine(E01.GetName());
+            //Console.WriteLine(E01.GetSalary());
+
+            //Console.WriteLine(E01); 
+            #endregion
 
         }
     }
