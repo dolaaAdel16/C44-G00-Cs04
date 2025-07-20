@@ -65,6 +65,25 @@
             //Console.WriteLine(E01); 
             #endregion
 
+
+            #region V04
+            //Console.WriteLine("V04");
+
+            //Employee E01 = new Employee();
+
+            //E01.Id = 12;
+            //E01.Name = "Ahmed";
+            //E01.Salary = -12000;
+            //E01.Address = "Cairo";
+
+            //Console.WriteLine(E01.Id);
+            //Console.WriteLine(E01.Name);
+            //Console.WriteLine(E01.Salary);
+            //Console.WriteLine(E01.Address); 
+            #endregion
+
+
+
         }
     }
 }
