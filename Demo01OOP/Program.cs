@@ -82,6 +82,35 @@
             //Console.WriteLine(E01.Address); 
             #endregion
 
+            #region V05
+            //Console.WriteLine("V05");
+
+            //PhoneBook PhoneBook = new PhoneBook(3);
+
+            //PhoneBook.AddPerson("Ahmed", 1111, 0);
+            //PhoneBook.AddPerson("Ali", 2222, 1);
+            //PhoneBook.AddPerson("Ahmed", 3333, 2);
+
+            //Console.WriteLine(PhoneBook.GetNumber("Ahmed"));
+
+            //PhoneBook.UpdateNumber("Ahmed", 999);
+            //Console.WriteLine(PhoneBook.GetNumber("Ahmed"));
+
+            //PhoneBook.GetName(999);
+            //Console.WriteLine(PhoneBook.GetName(999));
+
+            //PhoneBook.UpdateName(999, "Ali");
+            //Console.WriteLine(PhoneBook.GetName(1011));
+
+            //Console.WriteLine(PhoneBook["Ahmed"]);
+            //PhoneBook["Ahmed"] = 99;
+
+            //Console.WriteLine(PhoneBook["Ahmed"]);
+
+            //PhoneBook[1101] = "Ahmed";
+            //Console.WriteLine(PhoneBook[1101]); 
+            #endregion
+
 
 
         }
