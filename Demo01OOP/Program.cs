@@ -111,6 +111,20 @@
             //Console.WriteLine(PhoneBook[1101]); 
             #endregion
 
+            #region V06
+            //Console.WriteLine("V06");
+
+            //car C01;
+            //Console.WriteLine(C01); 
+
+            //C01 = new car(1, 50, "XYZ");
+
+            //Console.WriteLine(C01.Id);
+            //Console.WriteLine(C01.Speed);
+            //Console.WriteLine(C01.Model);
+
+            //Console.WriteLine(C01);     
+            #endregion
 
 
         }
