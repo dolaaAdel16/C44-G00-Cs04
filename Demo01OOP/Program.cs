@@ -1,132 +1,50 @@
-﻿namespace Demo01OOP
+﻿using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Reflection;
+using System.Reflection.Emit;
+using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
+using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Demo01OOP
 {
     internal class Program
     {
         static void Main()
         {
-            #region V01
-            //Console.WriteLine("V01");
+                // Your existing code here...
 
-            //Point P01;
+                enum Gender { M, F }
 
-            //Console.WriteLine(P01.x);
-            //Console.WriteLine(P01.y);
-
-            //P01.x = 12;
-            //P01.y = 12;
-
-            //Console.WriteLine(P01.x);
-            //Console.WriteLine(P01.y);
-
-            //P01 = new Point(1,2); 
-
-            //Console.WriteLine(P01.x);   
-            //Console.WriteLine(P01.y);   
-
-            //Console.WriteLine(P01);
-
-            //P01.PrintPoint();
-
-            //Console.WriteLine(P01); 
-
-            #endregion
-
-            #region V02
-            //Console.WriteLine("V02");
-
-            //Object O01;
-
-            //O01 = 1;
-            //O01 = 1.5;
-            //O01 = 1.5f; 
-            #endregion
-
-            #region V03
-            //Console.WriteLine("V03");
-
-            //Employee E01 = new Employee( 1 , "Ahmed Adel" , 12000);
-
-            //E01.id = 1;
-            //E01.name = "Ahmed";
-            //E01.salary = 12000;
-
-            //Console.WriteLine(E01.id);
-            //Console.WriteLine(E01.name);
-            //Console.WriteLine(E01.salary);
-
-            //E01.SetId(1);   
-            //E01.SetName("Ahmed");
-            //E01.SetSalary(-12000);   
-
-            //Console.WriteLine(E01.GetId());
-            //Console.WriteLine(E01.GetName());
-            //Console.WriteLine(E01.GetSalary());
-
-            //Console.WriteLine(E01); 
-            #endregion
-
-
-            #region V04
-            //Console.WriteLine("V04");
-
-            //Employee E01 = new Employee();
-
-            //E01.Id = 12;
-            //E01.Name = "Ahmed";
-            //E01.Salary = -12000;
-            //E01.Address = "Cairo";
-
-            //Console.WriteLine(E01.Id);
-            //Console.WriteLine(E01.Name);
-            //Console.WriteLine(E01.Salary);
-            //Console.WriteLine(E01.Address); 
-            #endregion
-
-            #region V05
-            //Console.WriteLine("V05");
-
-            //PhoneBook PhoneBook = new PhoneBook(3);
-
-            //PhoneBook.AddPerson("Ahmed", 1111, 0);
-            //PhoneBook.AddPerson("Ali", 2222, 1);
-            //PhoneBook.AddPerson("Ahmed", 3333, 2);
-
-            //Console.WriteLine(PhoneBook.GetNumber("Ahmed"));
-
-            //PhoneBook.UpdateNumber("Ahmed", 999);
-            //Console.WriteLine(PhoneBook.GetNumber("Ahmed"));
-
-            //PhoneBook.GetName(999);
-            //Console.WriteLine(PhoneBook.GetName(999));
-
-            //PhoneBook.UpdateName(999, "Ali");
-            //Console.WriteLine(PhoneBook.GetName(1011));
-
-            //Console.WriteLine(PhoneBook["Ahmed"]);
-            //PhoneBook["Ahmed"] = 99;
-
-            //Console.WriteLine(PhoneBook["Ahmed"]);
-
-            //PhoneBook[1101] = "Ahmed";
-            //Console.WriteLine(PhoneBook[1101]); 
-            #endregion
-
-            #region V06
-            //Console.WriteLine("V06");
-
-            //car C01;
-            //Console.WriteLine(C01); 
-
-            //C01 = new car(1, 50, "XYZ");
-
-            //Console.WriteLine(C01.Id);
-            //Console.WriteLine(C01.Speed);
-            //Console.WriteLine(C01.Model);
-
-            //Console.WriteLine(C01);     
-            #endregion
-
-
+        enum SecurityLevel
+        {
+            Guest,
+            Developer,
+            Secretary,
+            DBA,
+            SecurityOfficer
         }
+
+        class HireDate
+        {
+            public int Day { get; set; }
+            public int Month { get; set; }
+            public int Year { get; set; }
+
+            public HireDate(int d, int m, int y)
+            {
+                Day = d;
+                Month = m;
+                Year = y;
+            }
+
+            public string Display()
+            {
+                return Day + "/" + Month + "/" + Year;
+            }
+        }
+    }
     }
 }
